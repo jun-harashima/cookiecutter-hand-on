@@ -12,7 +12,6 @@
 
 ```Text
 cookiecutter-mypackage/
-├── README.md
 ├── cookiecutter.json
 ├── hooks
 │   └── post_gen_project.sh
