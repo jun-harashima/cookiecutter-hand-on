@@ -150,9 +150,12 @@ FROM ubuntu:22.04
 CMD ["/bin/bash"]
 ```
 
+選択変数と類似する変数としてブール型変数 [^3] があります。ブール型変数を利用すれば、`true` or `false`（`yes` or `no` 等でも可）の 2 値を選択するプロンプトを提示できます。
+
 このようにファイルやディレクトリを追加していくことで、自分のテンプレートが作成できます。あとは、任意のタイミングで、GitHub でテンプレートを管理しておくとよいです。
 
 次は [Part 2-1. フックの利用](../part-2-1)です。
 
 [^1]: https://jinja.palletsprojects.com/en/3.1.x/
 [^2]: https://cookiecutter.readthedocs.io/en/stable/advanced/choice_variables.html
+[^3]: https://cookiecutter.readthedocs.io/en/stable/advanced/boolean_variables.html
